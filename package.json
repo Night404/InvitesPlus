@@ -1,0 +1,17 @@
+{
+  "name": "Member(-)",
+  "description": "A Multipurpose Discord bot that uses the Discordjs API!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "quickmongo": "^3.0.2",
+    "pretty-ms": "^7.0.0",
+    "parse-ms": "^2.1.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
