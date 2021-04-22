@@ -27,7 +27,7 @@ let embed = new MessageEmbed()
 .addField("General Commands:", General)
 .addField("GetMembers Commands:", GetMembers)
 .addField("Owners Commands:", Owner)
-.addField("Quick Links", `[Support Server](${client.settings.serverURL}) | [Source](https://www.github.com/Night404/InvitesPlus)`)
+.addField("Quick Links", `[Support Server](${client.settings.serverURL})`)
       .setFooter(`Requested by: ${message.author.tag} | ${client.commands.size}`, message.author.avatarURL());
   return message.channel.send(embed);
     } else {
